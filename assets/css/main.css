@@ -3968,6 +3968,7 @@ input, select, textarea {
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/background.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/background.jpg");
 		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/background.jpg");
+		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -3982,6 +3983,6 @@ input, select, textarea {
 	padding-left: 50px;
 	padding-right: 45px;
 	margin: 0 auto;
-	background: rgba(0, 0, 0, 0.75);
+	background: rgba(46, 56, 66, 1);
 	border-radius: 3px;
 }
