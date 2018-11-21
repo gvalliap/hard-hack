@@ -3986,3 +3986,90 @@ input, select, textarea {
 	background: rgba(46, 56, 66, 1);
 	border-radius: 3px;
 }
+
+.company {
+	max-height: 10em;
+	margin: 20px 20px;
+}
+
+.company-large {
+	max-height: 6em !important;
+}
+
+.company-medium {
+	max-height: 7em !important;
+}
+
+@media screen and (max-width: 1680px) {
+
+	.company {
+		max-height: 8em;
+		margin: 20px 20px;
+	}
+
+	.company-large {
+		max-height: 6em !important;
+	}
+
+	.company-medium {
+		max-height: 7em !important;
+	}
+
+}
+
+@media screen and (max-width: 1280px) {
+
+	.company {
+		max-height: 7em;
+		margin: 20px 20px;
+	}
+
+	.company-large {
+		max-height: 5em !important;
+	}
+
+	.company-medium {
+		max-height: 6em !important;
+	}
+
+}
+
+@media screen and (max-width: 980px) {
+
+	.company {
+		max-height: 6em;
+		margin: 20px 20px;
+	}
+
+	.company-large {
+		max-height: 4.5em !important;
+	}
+
+	.company-medium {
+		max-height: 5.25em !important;
+	}
+
+}
+
+@media screen and (max-width: 736px) {
+
+	.company {
+		max-height: 5em;
+		margin: 20px 20px;
+	}
+
+	.company-large {
+		max-height: 4em;
+	}
+
+	.company-medium {
+		max-height: 4.5em;
+	}
+
+}
+
+.white-bg {
+	background-color: #efefef;
+	padding: 5px;
+	border-radius: 3px;
+}
