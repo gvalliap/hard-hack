@@ -4072,4 +4072,13 @@ input, select, textarea {
 	background-color: #efefef;
 	padding: 5px;
 	border-radius: 3px;
+	transition: all .2s ease-in-out;
+}
+
+.white-bg:hover {
+	transform: scale(1.075);
+}
+
+#sponsorlist a {
+	color: #505393;
 }
