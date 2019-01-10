@@ -4086,3 +4086,8 @@ input, select, textarea {
 #clockdiv {
 	
 }
+
+.valign {
+	display: inline-block;
+	vertical-align: middle;
+}
