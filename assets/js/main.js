@@ -82,7 +82,7 @@
 
 })(jQuery);
 
-var deadline = 'January 19 2019';
+var deadline = 'January 19 2019 11:00 AM PST';
 
 function getTimeRemaining(endtime){
 	var t = Date.parse(endtime) - Date.parse(new Date());
