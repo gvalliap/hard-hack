@@ -82,7 +82,7 @@
 
 })(jQuery);
 
-var deadline = 'January 19 2019 11:00 AM PST';
+var deadline = 'January 20 2019 11:00 AM PST';
 
 function getTimeRemaining(endtime){
 	var t = Date.parse(endtime) - Date.parse(new Date());
@@ -103,11 +103,10 @@ function initializeClock(id, endtime){
 	var clock = document.getElementById(id);
 	var timeinterval = setInterval(function(){
 		var t = getTimeRemaining(endtime);
-		clock.innerHTML = t.days + ' days ' +
-						  t.hours + ' hours ' +
+		clock.innerHTML = t.hours + ' hours ' +
 						  t.minutes + ' minutes ' +
 						  t.seconds + ' seconds'
-		if(t.total<=0) {
+		if(t.total <= 0) {
 			clearInterval(timeinterval);
 		}
 	},1000);
